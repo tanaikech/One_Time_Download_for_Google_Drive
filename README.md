@@ -17,7 +17,7 @@ When you download a file from Google Drive, in generally, the login and the acce
 For this situation, I would like to provide a workaround. In this workaround, the file is publicly shared. But the file is publicly shared for only one minute. I noticed that when the publicly shared-file is downloaded from Google Drive, even if the permissions of file is changed not to be shared publicly after the download was started, the download is kept. In this workaround, I used this. In this case, it might be required to be called the pseudo one time download. The flow of this workaround is as follows.
 
 ## Flow
-In this sample script, the API key is used. Before you use the script, please retrieve the API key. About how to retrieve API key, please check [official document](https://developers.google.com/maps/documentation/javascript/get-api-key) of [this document](https://github.com/tanaikech/goodls#retrieve-api-key).
+In this sample script, the API key is used. Before you use the script, please retrieve the API key. About how to retrieve API key, please check [official document](https://developers.google.com/maps/documentation/javascript/get-api-key) or [this document](https://github.com/tanaikech/goodls#retrieve-api-key).
 
 1. Request to Web Apps with the API key and the file ID you want to download.
 2. At Web Apps, the following functions are run.
@@ -29,7 +29,7 @@ In this sample script, the API key is used. Before you use the script, please re
 
 ## Usage
 ### 1. Retrieve API key
-In this sample script, the API key is used. Before you use the script, please retrieve the API key. About how to retrieve API key, please check [official document](https://developers.google.com/maps/documentation/javascript/get-api-key) of [this document](https://github.com/tanaikech/goodls#retrieve-api-key).
+In this sample script, the API key is used. Before you use the script, please retrieve the API key. About how to retrieve API key, please check [official document](https://developers.google.com/maps/documentation/javascript/get-api-key) or [this document](https://github.com/tanaikech/goodls#retrieve-api-key).
 
 ### 2. Create a standalone script
 In this workaround, Google Apps Script is used as the server side. Please create a standalone script. Of course, you can also use this script with the bound script.
